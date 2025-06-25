@@ -1,0 +1,12 @@
+
+include:
+  - board: akdk_bt1
+    shield: split_ortho4x6_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: akdk_bt1
+    shield: split_ortho4x6_right
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: akdk_bt1
+    shield: settings_reset
